@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\user\source\repos\GameFramework\실습\GameFrameWork\PP01.HelloSDL;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\user\source\repos\GameFramework\실습\GameFrameWork\PP01.HelloSDL;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\user\source\repos\GameFramework\실습\SDL2-2.0.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\user\source\repos\GameFramework\실습\SDL2-2.0.8\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
