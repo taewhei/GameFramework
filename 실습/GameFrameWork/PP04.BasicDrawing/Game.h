@@ -1,0 +1,1 @@
+//SDL_Texture* m_pTexture;

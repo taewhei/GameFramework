@@ -1,4 +1,4 @@
-#include<SDL.h>
+/*#include<SDL.h>
 
 
 bool g_bRunning = true;
@@ -32,4 +32,4 @@ SDL_RenderPresent(g_pRenderer);
 SDL_Delay(5000);
 SDL_Quit();
 return 0;
-}
+}*/

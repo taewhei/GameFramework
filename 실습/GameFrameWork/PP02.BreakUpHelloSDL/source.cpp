@@ -1,4 +1,4 @@
-#include<SDL.h>
+/*#include<SDL.h>
 
 SDL_Window*g_pWindow = 0;
 SDL_Renderer*g_pRenderer = 0;
@@ -11,7 +11,7 @@ void clean(){}
 
 bool g_bRunning = true;
 
-/*int main()
+int main()
 {
 	init();
 	while (g_bRunning) {
@@ -21,7 +21,7 @@ bool g_bRunning = true;
 
 	}
 	clean();
-}*/
+}
 bool g_bRunning = false;
 bool init(const char*title, int xpos, int ypos, int width, int height, int flags)
 {
@@ -59,4 +59,4 @@ int main(int argc, char* argv[])
 	}
 	SDL_Quit();
 	return 0;
-}
+}*/
