@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\PP03.GameClass\Game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\PP03.GameClass\Game.cpp" />
+    <ClCompile Include="..\PP03.GameClass\main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{9861131E-A9F7-42CF-AE26-3050C7A08A32}</ProjectGuid>
@@ -71,7 +78,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Users\user\source\repos\GameFramework20171270\GameFramework\실습\SDL2-2.0.8\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\user\source\repos\GameFramework20171270\GameFramework\실습\SDL2-2.0.8\lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\user\source\repos\GameFramework20171270\GameFramework\실습\SDL2-2.0.8\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -121,9 +128,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Game.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
