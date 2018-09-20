@@ -19,16 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\PP03.GameClass\Game.cpp" />
-    <ClCompile Include="..\PP03.GameClass\main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\PP03.GameClass\Game.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9861131E-A9F7-42CF-AE26-3050C7A08A32}</ProjectGuid>
-    <RootNamespace>PP04BasicDrawing</RootNamespace>
+    <ProjectGuid>{31F212E1-9756-467F-8431-7F0BDA3F7555}</ProjectGuid>
+    <RootNamespace>PP05AnimatingSprite</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
